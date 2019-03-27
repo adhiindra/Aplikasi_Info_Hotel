@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         mHarga.add("5.652.000");
 
         mNames.add("Intercontinental Bali");
-        mImageUrls.add("https://ihg.scene7.com/is/image/ihg/intercontinental-bali-4636372437-2x1?fit=fit,1&wid=2400&hei=1200");
+        mImageUrls.add("https://images.trvl-media.com/hotels/1000000/10000/500/488/1b69b4af_z.jpg");
         mAlamat.add("Jl. Uluwatu 45, Jimbaran, Bali, Kabupaten Badung, Bali 80361");
         mRating.add(5);
         mHarga.add("12.542.000");
@@ -77,11 +77,10 @@ public class MainActivity extends AppCompatActivity {
         mHarga.add("790.000");
 
         mNames.add("Ibis Styles Bali Denpasar");
-        mImageUrls.add("https://www.ahstatic.com/photos/7538_ho_00_p_2048x1536.jpg");
+        mImageUrls.add("https://origin.pegipegi.com/jalan/images/pict2L/Y9/Y158819/Y158819010.jpg");
         mAlamat.add("Jl. Teuku Umar No.183, Dauh Puri Kauh, Denpasar Bar., Kota Denpasar, Bali 80114");
         mRating.add(3);
         mHarga.add("397.000");
-
 
         mNames.add("Favehotel Kuta - Kartika Plaza");
         mImageUrls.add("https://t-ec.bstatic.com/images/hotel/max1280x900/758/75862511.jpg");
