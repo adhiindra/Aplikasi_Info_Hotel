@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         mHarga.add("5.652.000");
 
         mNames.add("Intercontinental Bali");
-        mImageUrls.add("https://images.trvl-media.com/hotels/1000000/10000/500/488/1b69b4af_z.jpg");
+        mImageUrls.add("https://pix10.agoda.net/hotelImages/3632/0/4e2b644f32b31a0496324f1934cf542c.jpg");
         mAlamat.add("Jl. Uluwatu 45, Jimbaran, Bali, Kabupaten Badung, Bali 80361");
         mRating.add(5);
         mHarga.add("12.542.000");
