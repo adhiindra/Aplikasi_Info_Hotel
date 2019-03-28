@@ -204,7 +204,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/harga_kamar"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="53dp"
+                android:layout_marginStart="48dp"
                 android:layout_marginTop="35dp"
                 android:onClick="displayToastMsg"
                 android:text="Book Now !"
