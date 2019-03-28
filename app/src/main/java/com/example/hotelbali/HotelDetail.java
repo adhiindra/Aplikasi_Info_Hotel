@@ -9,20 +9,17 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.bumptech.glide.Glide;
-
-import org.w3c.dom.Text;
 
 public class HotelDetail extends AppCompatActivity {
 
     private static final String TAG = "HotelDetail";
-    public String msgg;
+    public String boking;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gallery);
+        setContentView(R.layout.activity_detail);
         Log.d(TAG, "onCreate: started.");
 
         getIncomingIntent();
@@ -40,7 +37,7 @@ public class HotelDetail extends AppCompatActivity {
             Integer ratinghotel = getIntent().getIntExtra("rating_hotel",0);
             String hargahotel = getIntent().getStringExtra("harga_hotel");
 
-            msgg = imageName;
+            boking = imageName;
 
 
             setImage(imageUrl, imageName, alamathotel, ratinghotel, hargahotel);
@@ -80,7 +77,7 @@ public class HotelDetail extends AppCompatActivity {
 
     public void displayToastMsg(View v) {
 
-        toastMsg("You Are Booked On "+msgg+" !");
+        toastMsg("You Are Booked On "+boking+" !");
     }
 
 }
