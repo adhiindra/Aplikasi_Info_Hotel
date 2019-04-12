@@ -67,17 +67,12 @@ public class HotelDetail extends AppCompatActivity {
                 .load(imageUrl)
                 .into(image);
     }
-
-    public void toastMsg(String msg) {
-
-        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-        toast.show();
-
-    }
+    
 
     public void displayToastMsg(View v) {
+        Toast toast = Toast.makeText(this, "You Are Booked On "+boking+" !", Toast.LENGTH_LONG);
+        toast.show();
 
-        toastMsg("You Are Booked On "+boking+" !");
     }
 
 }
