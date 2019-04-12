@@ -30,6 +30,7 @@ public class HotelData {
     private ArrayList<Integer> mRating = new ArrayList<>();
     private ArrayList<String> mHarga = new ArrayList<>();
 
+
     void initHotelData(){
         mNames.add("Bali Hyatt");
         mImageUrls.add("https://d22ir9aoo7cbf6.cloudfront.net/wp-content/uploads/sites/4/2018/10/Hyatt-Regency-Bali-Sanur-Hotel-5.jpg");
@@ -66,6 +67,7 @@ public class HotelData {
         mAlamat.add("Kawasan Pariwisata Nusa Dua BTDC, Jl. Nusa Dua No.3, Bali 80363");
         mRating.add(5);
         mHarga.add("11.452.000");
+
 
         mNames.add("Ayana Bali");
         mImageUrls.add("https://s-ec.bstatic.com/images/hotel/max1024x768/136/13626238.jpg");
