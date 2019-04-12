@@ -67,7 +67,7 @@ public class HotelDetail extends AppCompatActivity {
                 .load(imageUrl)
                 .into(image);
     }
-    
+
 
     public void displayToastMsg(View v) {
         Toast toast = Toast.makeText(this, "You Are Booked On "+boking+" !", Toast.LENGTH_LONG);

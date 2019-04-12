@@ -53,6 +53,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
         holder.imageName.setText(mImageNames.get(position));
         holder.rating.setRating(mRating.get(position));
+        holder.alamat.setText(mAlamat.get(position));
 
         holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +82,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
         CircleImageView image;
         TextView imageName;
+        TextView alamat;
         RatingBar rating;
         RelativeLayout parentLayout;
 
@@ -88,6 +90,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
             super(itemView);
             image = itemView.findViewById(R.id.image);
             imageName = itemView.findViewById(R.id.image_name);
+            alamat = itemView.findViewById(R.id.alamat);
             rating = itemView.findViewById(R.id.rating);
             parentLayout = itemView.findViewById(R.id.parent_layout);
         }

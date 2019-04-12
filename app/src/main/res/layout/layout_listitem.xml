@@ -30,21 +30,34 @@ card_view:cardCornerRadius="4dp">
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="26dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="3dp"
         android:layout_toRightOf="@+id/image"
         android:fontFamily="@font/montserrat"
         android:text="@string/canada"
         android:textColor="#000"
         android:textSize="17sp" />
 
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@+id/image"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/canada"
+        android:textColor="#000"
+        android:textSize="10sp" />
+
     <RatingBar
         android:id="@+id/rating"
         style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/image_name"
+        android:layout_below="@+id/alamat"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/image"
         android:isIndicator="true"
         android:numStars="5"
